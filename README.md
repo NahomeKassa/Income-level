@@ -27,3 +27,25 @@ native-country: United-States, Cambodia, England, Puerto-Rico, Canada, Germany, 
 Income class:
 0 = <=50K
 1 = >50K
+
+# We're going to take the following approach:
+
+Problem definition
+Data
+Evaluation
+Features
+Modelling
+Experimentation
+1. Problem Defintion
+In a statement,
+
+Given an individual's personal information, can we predict their income level?
+
+2. Data
+The original data came from the 1994 Census database. The dataset can be found at the UCI Machine Learning Respitory. https://archive.ics.uci.edu/ml/datasets/Adult
+
+There is also a version of it available on Kaggle https://www.kaggle.com/datasets/wenruliu/adult-income-dataset
+
+3. Evaluation
+If we can reach 85% accuracy at predicting income level, we'll pursue the project.
+
